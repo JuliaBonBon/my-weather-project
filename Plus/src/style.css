@@ -1,0 +1,93 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  display: block;
+  margin: 0 auto;
+  top: 45px;
+  position: relative;
+  border: 1px solid #849ab0;
+  width: 650px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 6px 86px 10px #888888;
+  background-color: rgba(185, 199, 211, 0.3);
+}
+.search-container {
+  position: relative;
+  width: 75%;
+  padding: 18px 30px;
+  margin-left: 315px;
+  top: 225px;
+  font-family: "Ysabeau", sans-serif;
+}
+.current-day {
+  font-family: "Ysabeau", sans-serif;
+  opacity: 0.8;
+  margin-left: 15px;
+  margin-top: -55px;
+}
+.current {
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: black;
+}
+h1 {
+  opacity: 0.8;
+  font-size: 40px;
+  font-family: "Ysabeau", sans-serif;
+  margin-left: 14px;
+  margin-top: -10px;
+}
+.day-temp {
+  color: #39506a;
+  margin-left: 50px;
+  font-family: "Ysabeau", sans-serif;
+}
+.units {
+  font-size: 24px;
+  color: #5295ca;
+  text-decoration: none;
+}
+
+.day {
+  font-size: 16px;
+  font-family: "Ysabeau", sans-serif;
+  opacity: 0.8;
+  padding: 13px;
+}
+.information {
+  font-family: "Ysabeau", sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+  padding: 25px;
+}
+img {
+  width: 180px;
+  display: block;
+  margin: -55px auto;
+}
+
+p {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 14px;
+  position: absolute;
+  padding: 35px;
+  opacity: 0.6;
+}
+
+.images {
+  width: 50px;
+  margin: 10px;
+}
+.temperature {
+  margin: 12px;
+  color: #39506a;
+}
+
+.date-forecast {
+  font-family: "Ysabeau", sans-serif;
+  margin-top: 110px;
+}
