@@ -45,7 +45,7 @@ function displayWeather(response) {
     response.data.wind.speed
   )} km/hr`;
   document.querySelector(
-    "#humid"
+    "#humidity"
   ).innerHTML = `${response.data.main.humidity}%`;
 }
 
